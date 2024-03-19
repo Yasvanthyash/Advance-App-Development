@@ -101,8 +101,7 @@
       color:black;
       text-align: center; 
     }
-  /* Add this to your AdminDashboard.css file */
-  
+ 
   .recently-applied-jobs {
     margin: 20px;
   }
@@ -127,7 +126,7 @@
   }
   .recently-applied-jobs li span {
     display: block;
-    margin-bottom: 5px; /* Adjust as needed */
+    margin-bottom: 5px;
   }
   .recently-applied-jobs li:last-child {
     margin-bottom: 0;

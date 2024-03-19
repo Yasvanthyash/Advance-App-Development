@@ -5,7 +5,6 @@ function UserLogin() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const nav=useNavigate();
-
   const authenticate = (e) => {
     e.preventDefault();
 

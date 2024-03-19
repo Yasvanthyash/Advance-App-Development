@@ -1,37 +1,37 @@
 .about-container {
-    width: 1300px; /* Increase the maximum width */
+    width: 1300px; 
     margin: 0 auto;
-    padding: 40px; /* Increase padding for more space around content */
+    padding: 40px;
   }
   
   .about-container h1,
   .about-container h2 {
-    color: #007bff; /* Blue color */
-    font-size: 32px; /* Increase font size */
+    color: #007bff;
+    font-size: 32px; 
   }
   
   .about-container p,
   .about-container ul {
-    color: #060606; /* Black color */
-    font-size: 20px; /* Increase font size */
+    color: #060606; 
+    font-size: 20px;
     line-height: 1.6;
   }
   
   .about-container ul {
-    list-style-type: none; /* Remove bullet points */
-  padding-left: 0; /* Adjust padding */
-    margin-top: 15px; /* Adjust margin */
+    list-style-type: none;
+  padding-left: 0; 
+    margin-top: 15px; 
   }
   
   .return-home-button {
     display: inline-block;
-    padding: 12px 24px; /* Increase padding */
-    font-size: 20px; /* Increase font size */
-    background-color: #007bff; /* Blue color */
-    color: #ffffff; /* White color */
+    padding: 12px 24px; 
+    font-size: 20px; 
+    background-color: #007bff; 
+    color: #ffffff; 
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 30px; /* Increase margin */
+    margin-top: 30px;
   }
   
   .return-home-button:hover {
@@ -41,13 +41,13 @@
   
   .image-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    grid-gap: 30px; /* Increase gap between images */
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 30px; 
   }
   
   .image-grid img {
-    width: 100%; /* Make images take up full width */
-    max-width: 100%; /* Ensure images don't exceed container width */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    max-width: 100%; 
+    height: auto;
     border-radius: 5px;
   }
