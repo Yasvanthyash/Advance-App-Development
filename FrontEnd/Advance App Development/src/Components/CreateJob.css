@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
-/* Reset box-sizing and margin for all elements */
 .create-job-container *,
 .create-job-container *::before,
 .create-job-container *::after {
@@ -12,9 +11,9 @@
   display: flex !important;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Use min-height to ensure the container takes up at least the height of the viewport */
+  min-height: 100vh; 
   background: #cfe2f3;
-  font-family: 'Poppins', sans-serif; /* Apply Google Font to the container */
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.87);
@@ -56,8 +55,8 @@
   border: 2px solid #fbfcfc;
   border-radius: 5px;
   font-size: 16px;
-  background-color: #3a3a3a; /* Set background color to white */
-  color: rgb(251, 250, 250); /* Set text color to black */
+  background-color: #3a3a3a; 
+  color: rgb(251, 250, 250); 
 }
 
 .create-job-container input[type="text"]:focus,

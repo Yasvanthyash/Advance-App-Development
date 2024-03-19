@@ -13,13 +13,11 @@ const PaymentPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Check if all fields are filled
     if (!modeOfPayment || !cardNumber || !cvv || !expiryDate || !totalAmount || !paymentDate) {
       alert("Please fill in all the fields");
       return;
     }
 
-    // Validate card number and CVV length
     if (cardNumber.length < 14 || cardNumber.length > 16) {
       alert("Card number must be between 14 and 16 characters");
       return;
@@ -30,7 +28,6 @@ const PaymentPage = () => {
       return;
     }
 
-    // Handle form submission logic here
     console.log("Payment submitted successfully!");
   };
 
