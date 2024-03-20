@@ -21,7 +21,7 @@ const CreateJob = () => {
       return;
     }
     alert("Job created successfully!");
-    nav('/admindashboard');
+    nav('/viewjob');
   };
 
   return (
