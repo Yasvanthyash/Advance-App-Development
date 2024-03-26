@@ -27,7 +27,6 @@ nav {
   font-size: 18px;
 }
 
-/* Change hover effect */
 .header-container nav a:hover {
   color: #ff0000; /* Change text color on hover */
   /* background-color: #ff0000; */ /* Uncomment to change background color on hover */
