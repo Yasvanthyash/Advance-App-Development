@@ -40,7 +40,7 @@
 
 .block-image img {
   height: auto;
-  max-width: 80%; /* Reduce the width of the image */
+  max-width: 80%; 
 }
 
 /* Button styling */
